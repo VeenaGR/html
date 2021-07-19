@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>simple_form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+</head>
+<body>
+	<fieldset>
+	    <form>
+		    <label for="pname">Name</label><br>
+		    <input type="text" id="pname" name="personname" value=""placeholder="enter your name" required="" maxlength="25" /><br>
+		    <label for="pemail">Email</label><br>
+		    <input type="text" id="pemail" name="personemail" value="test@example.com" required="" autofocus="on" /><br>
+		    <label for="pwd">Password</label><br>
+		    <input type="Password" id="pwd" name="personpassword" value="" required="" minlength="6" />
+		    <br><br>
+		    <label>Category</label>
+		    <select required="" >
+            <option >Student</option><br>
+			<option >Employee</option>Employee
+			<option  selected="">Freelancer</option>
+		    </select><br>
+		    <br>
+		    <label for="edate">Event Date</label>
+		    <input type="Date" id="edate" name="Date" value="" required="" />
+		    <br>
+		    <label for="etick" >Tickets</label><br>
+		    <input type="radio" id="etick" name="Tickets" value="" required="" />1 Ticket <br>
+		    <input type="radio" id="etick" name="Tickets" value="" required="" checked="" />2 Tickets <br>
+		    <input type="radio" id="etick" name="Tickets" value="" required="" />3 Tickets <br>
+		    <br>
+		    <label>Payment</label><br>
+		    <input type="checkbox" id="epay" name="Payment" value="" required="" />
+		    <label for="epay">Online Payment</label><br>
+		    <br>
+		    <label for="note">Notes:</label><br>
+		    <textarea rows="5" cols="50 "id="note" name="notes" value="" placeholder="enter your comments" ></textarea><br>
+		    <br>
+		    <input type="submit" name="submit" value="submit"/>
+		    <input type="reset" name="reset" value="reset"/>
+
+	    </form>
+    </fieldset>
+</body>
+</html>
